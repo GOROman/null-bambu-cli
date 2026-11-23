@@ -1,10 +1,8 @@
 # null-bambu-cli
 
-English | [日本語](README.ja.md)
+English | [Japanese](README.ja.md)
 
-`nbc` is a Python CLI for Bambu Lab printers with LAN Only Mode disabled. It discovers printers on your network, checks printer status, and lists or uploads sliced model files.
-
-`nbc` は、LAN Only Mode をオフにしたまま Bambu Lab のプリンタを使うための Python CLI です。プリンタの検出、印刷状況とフィラメント情報の確認、スライス済みファイルの一覧取得・転送・削除ができます。
+`nbc` is a Python CLI for Bambu Lab printers with LAN Only Mode disabled. It discovers printers on your network, checks printer status and filament, and lists, uploads, or deletes sliced model files.
 
 ## Install
 
