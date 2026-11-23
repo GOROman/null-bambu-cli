@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "null-bambu-cli"
+version = "0.1.0"
+description = "Python CLI for Bambu Lab printers with LAN Only Mode off. Discover printers, check status and filament, and manage print files."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+
+[project.scripts]
+nbc = "nbc:main"
+
+[tool.setuptools]
+py-modules = ["nbc"]
